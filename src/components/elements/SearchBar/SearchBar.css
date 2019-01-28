@@ -1,0 +1,37 @@
+.rmdb-fa-search {
+  position: relative;
+  font-size: 25px;
+  /* left: 20px; */
+  top: 2px;
+  right: 10px;
+  color: #fff;
+}
+
+.rmdb-searchbar-input {
+  font-family: "Abel", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  text-decoration: none;
+  /* position: absolute; */
+  /* left: 70px; */
+  margin-top: 12px;
+  border: 0;
+  background: transparent;
+  height: 40px;
+  color: #fff;
+}
+
+.rmdb-searchbar-input:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 500px) {
+  .rmdb-searchbar-input {
+    font-size: 18px;
+    color: #fff;
+    display: inline-block;
+  }
+  .rmdb-fa-search {
+    font-size: 20px;
+  }
+}

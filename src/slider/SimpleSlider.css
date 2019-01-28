@@ -1,0 +1,39 @@
+.foto {
+  width: 90%;
+}
+
+.img-container {
+  position: relative;
+  display: inline-block;
+  margin: 2rem 0;
+}
+
+.vote {
+  position: absolute;
+  display: block;
+  top: 5%;
+  right: 15%;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 700;
+  background: #61dafb;
+  z-index: 1;
+  padding: 3px 3px;
+  border-radius: 3px;
+}
+/* 
+position: absolute;
+    top: 28px;
+    right: 5px;
+    z-index: 1;
+    padding: 3px 3px;
+    background: rgba(36, 140, 194, 0.70);
+    color: #ebeced;
+    font-weight: 500;
+    font-size: 11px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px; */
