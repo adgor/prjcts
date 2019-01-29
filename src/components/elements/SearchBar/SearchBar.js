@@ -26,8 +26,8 @@ class SearchBar extends Component {
     const { value } = this.state;
 
     return (
-      <div className="">
-        <div className="">
+      <div className="rmdb-searchbar">
+        <div className="rmdb-searchbar-content">
           <FontAwesome className="rmdb-fa-search" name="search" size="2x" />
           <input
             type="text"

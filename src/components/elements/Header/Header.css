@@ -23,20 +23,20 @@
 }
 
 .rmdb-logo {
-  width: 200px;
+  width: 150px;
   /* margin-top: 20px; */
   float: left;
 }
 
-.searchbar {
+/* .searchbar {
   padding-left: 30px;
   float: right;
-}
+} */
 .rmdb-tmdb-logo {
   width: 122px;
-  margin-top: 12px;
+  margin-top: 4px;
   margin-right: 20px;
-  float: right;
+  float: left;
 }
 
 @media screen and (max-width: 500px) {
@@ -48,11 +48,11 @@
   .rmdb-tmdb-logo {
     display: inline-block;
     width: 80px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
   }
 
   .rmdb-logo {
-    width: 150px;
-    margin-top: 5px;
+    width: 130px;
+    /* margin-top: 1px; */
   }
 }

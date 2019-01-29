@@ -1,13 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
-import SearchBar from "../SearchBar/SearchBar";
+// import SearchBar from "../SearchBar/SearchBar";
 
-const Header = ({ searchMovies }) => (
+const Header = () => (
+  // {
+  //   searchMovies
+  // }
   <div className="rmdb-header">
     <div className="container-fluid">
       <div className="row">
-        <div className="col-xs-9 col-lg-9">
+        <div className="col">
           <Link to="/">
             <img
               className="rmdb-logo"
@@ -21,9 +24,9 @@ const Header = ({ searchMovies }) => (
             alt="tmdb-logo"
           />
         </div>
-        <div className="searchbar col-xs-3 col-lg-3">
+        {/* <div className="searchbar col-xs-3 col-lg-3">
           <SearchBar callback={searchMovies} />
-        </div>
+        </div> */}
       </div>
     </div>
   </div>

@@ -5,7 +5,7 @@ import FourColGrid from "../elements/FourColGrid/FourColGrid";
 import MovieThumb from "../elements/MovieThumb/MovieThumb";
 import LoadMoreBtn from "../elements/LoadMoreBtn/LoadMoreBtn";
 import Spinner from "../elements/Spinner/Spinner";
-import { IMAGE_BASE_URL, POSTER_SIZE, BACKDROP_SIZE } from "../../config";
+import { IMAGE_BASE_URL, POSTER_SIZE } from "../../config";
 import "./Home.css";
 import SimpleSlider from "../../slider/SimpleSlider";
 
@@ -38,6 +38,8 @@ const Home = ({
         <SearchBar callback={searchMovies} />
       </div>
     ) : null} */}
+
+    <SearchBar callback={searchMovies} />
     <div className="rmdb-home-grid">
       <FourColGrid
         header={searchTerm ? "Search Result" : "Popular Movies"}
@@ -60,7 +62,8 @@ const Home = ({
       {loading ? <Spinner /> : null}
       {currentPage <= totalPages && !loading ? (
         <LoadMoreBtn text="Load More" onClick={loadMoreMovies} />
-      ) : null}
+      ) : // TODO: https://www.robinwieruch.de/react-paginated-list/ instead pagination
+      null}
     </div>
   </div>
 );
