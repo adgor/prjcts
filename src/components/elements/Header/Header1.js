@@ -28,8 +28,18 @@ const Header1 = () => {
       <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
           <li className="nav-item active">
-            <Link className="nav-link" to="#">
-              Home <span className="sr-only">(current)</span>
+            <Link className="nav-link" to="/">
+              Filma <span className="sr-only">(current)</span>
+            </Link>
+          </li>
+          <li className="nav-item active">
+            <Link className="nav-link" to="/seriale">
+              Seriale <span className="sr-only">(current)</span>
+            </Link>
+          </li>
+          <li className="nav-item active">
+            <Link className="nav-link" to="/kategorite">
+              Kategorite <span className="sr-only">(current)</span>
             </Link>
           </li>
           <li className="nav-item">
