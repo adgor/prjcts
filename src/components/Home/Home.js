@@ -7,7 +7,7 @@ import LoadMoreBtn from "../elements/LoadMoreBtn/LoadMoreBtn";
 import Spinner from "../elements/Spinner/Spinner";
 import { IMAGE_BASE_URL, POSTER_SIZE } from "../../config";
 import "./Home.css";
-import SimpleSlider from "../../slider/SimpleSlider";
+// import SimpleSlider from "../../slider/SimpleSlider";
 
 const Home = ({
   movies,
@@ -22,9 +22,7 @@ const Home = ({
   <div className="rmdb-home">
     <div className="container">
       <div className="row">
-        <div className="col">
-          <SimpleSlider />
-        </div>
+        <div className="col">{/* <SimpleSlider /> */}</div>
       </div>
     </div>
 
