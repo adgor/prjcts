@@ -41,6 +41,9 @@ const Header1 = () => {
             <Link className="nav-link" to="/kategorite">
               Kategorite <span className="sr-only">(current)</span>
             </Link>
+            <Link className="nav-link" to="/aksion">
+              Aksion <span className="sr-only">(current)</span>
+            </Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="#">

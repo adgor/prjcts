@@ -6,6 +6,7 @@ import Movie from "../../containers/MovieContainer";
 import NotFound from "../elements/NotFound/NotFound";
 import Kategorite from "../Pages/kategorite/Kategorite";
 import Serialet from "../Pages/seriale/Serialet";
+import Action1 from "../Pages/kategorite/Action1";
 
 const App = () => (
   <BrowserRouter>
@@ -14,6 +15,7 @@ const App = () => (
       <Switch>
         <Route path="/" component={Home} exact />
         <Route path="/kategorite" component={Kategorite} exact />
+        <Route path="/aksion" component={Action1} exact />
         <Route path="/seriale" component={Serialet} exact />
         <Route path="/:movieId" component={Movie} exact />
         <Route component={NotFound} />

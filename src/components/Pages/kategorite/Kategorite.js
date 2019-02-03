@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import { API_KEY, API_URL } from "../../../config";
-import Action from "./Action";
-import Adventure from "./Adventure";
-import Animation from "./Animation";
+// import Action from "./Action";
+import Action1 from "./Action1";
+// import Adventure from "./Adventure";
+// import Animation from "./Animation";
 
 class Kategorite extends Component {
   state = {
@@ -37,9 +38,10 @@ class Kategorite extends Component {
   render() {
     return (
       <div>
-        <Action />
-        <Adventure />
-        <Animation />
+        {/* <Action /> */}
+        <Action1 />
+        {/* <Adventure /> */}
+        {/* <Animation /> */}
       </div>
     );
   }
